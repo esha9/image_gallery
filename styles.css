@@ -1,0 +1,34 @@
+header{
+    text-align: center;
+    text-shadow: 2px 2px blue;
+    color: black;
+    padding: 20px;
+    font-size: 50px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-image: linear-gradient(red, rgb(31, 204, 235), green);
+}
+div.gallery {
+    margin: 5px;
+    border: 1px;
+    border-style:double;
+    border-color: rgb(145, 5, 33);
+    float:left;
+    width: 237.2px;
+    background-color:yellow;
+  }
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  div.gallery img {
+    width: 100%;
+    height:165px;
+  }
+  div.desc {
+    padding: 10px;
+    text-align: center;
+    background-color:yellow;
+    background-image: linear-gradient(to right, rgb(240, 56, 56) , yellow);
+    color:rgb(67, 24, 224);
+    font-family:serif;
+    font-style:inherit;
+  }
